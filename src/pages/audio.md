@@ -1,6 +1,7 @@
 ---
 title: audio
 url: /audio/
+layout: ../layouts/default.astro
 ---
 
 # online radios

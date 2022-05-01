@@ -3,18 +3,27 @@
 }
 
 :root {
-	background: #e3e8ec;
+	background: #fdfaf4;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 body {
 	padding: 4rem 2rem;
-	background: #e3e8ec;
-	color: #111827;
+	background: #fdfaf4;
+	color: #191817;
+}
+table {
+	width: 20%;
+	margin-bottom: 2rem;
+}
+
+td {
+	text-align: center;
 }
 
 /* @media (prefers-color-scheme: dark) {
 	body {
-		background: #111827;
+		background: #191817;
 		color: #fff;
 	}
 } */

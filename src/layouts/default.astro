@@ -1,0 +1,14 @@
+---
+import "../styles/global.css";
+
+const url = new URL(Astro.request.url);
+const currentPage = url.pathname;
+
+const { content } = Astro.props;
+---
+
+<html>
+	<head>
+		<title>index : {content.title}</title>
+	</head>
+</html>

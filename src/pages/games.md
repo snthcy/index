@@ -1,6 +1,7 @@
 ---
 title: games
 url: /games/
+layout: ../layouts/default.astro
 ---
 
 # games
