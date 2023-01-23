@@ -1,26 +1,88 @@
 ---
 title: games
-url: /games/
+url: /games
+new: true
 layout: ../layouts/default.astro
 ---
 
-# games
+# emulation & roms
+*nintend - oh no*
 
-_bored in class, at your grandma's house, or in a library? check out these cool games to play and let time fly!_
 
-<br>
+## roms
 
-## online games
+- [/r/Roms](https://www.reddit.com/r/Roms/wiki) - *ROMs megathread and allows requests for specific game titles*
 
-### group/party
+-   [Emulator Index](https://emulation.gametechwiki.com/)
 
-https://skribbl.io/ - _guess the drawing_
+-   [Rom Site Index](https://emulation.gametechwiki.com/index.php/ROM*%26*ISO*Sites)
 
-https://gartic.com/ - _guess the drawing ~ others_
+- [emuparadise.me](https://www.emuparadise.me/) -  *Emulators / Roms / [DL Script](https://gist.github.com/Eptun/3fdcc84552e75e452731cd4621c535e9)*
 
-<br>
+- [Vimm's Lair](https://vimm.net/?p=vault) - *Emulators / Roms - My favorite resource for older consoles*
 
-### multi-game
+- [crocdb](https://crocdb.net/) - *Roms aggregator from trusted sources*
+
+- [squid-proxy.xyz](https://squid-proxy.xyz/) - *Roms*
+
+- [nxbrew.com](https://nxbrew.com/) - *Switch NSPs / XCIs / Homebrews / CFWs*
+
+- [switch-xci.xyz](https://switch-xci.xyz/) - *Switch NSPs / XCIs*
+
+- [ziperto.com](https://www.ziperto.com/) - *Roms*
+
+- [pret](https://github.com/orgs/pret/repositories) - *Pokémon Decompilation Project*
+
+
+## emulators
+
+- [Messen](http://www.mesen.ca/) - *NES / SNES / Game Boy / Game Boy Color*
+
+- [Dolphin](https://dolphin-emu.org/) - *Wii/Game cube*
+
+- [Citra](https://citra-emu.org/) - *3DS*
+
+- [Cemu](https://cemu.info/) - *Wii U*
+
+- [Yuzu](https://yuzu-emu.org/) - *Switch*
+
+- [Ryujinx](https://ryujinx.org/) - *Switch*
+
+- [Duckstation](https://www.duckstation.org/) - *PlayStation*
+
+- [PCSX2](https://pcsx2.net/) - *PlayStation 2*
+
+- [RPCS3](https://rpcs3.net/) - *PlayStation 3*
+
+- [PPSSPP](https://www.ppsspp.org/) - *PSP*
+
+- [Xemu](https://xemu.app/) - *Xbox*
+
+- [Xenia](https://xenia.jp/) - **Xbox 360 [(18% compatibility)](https://github.com/xenia-project/game-compatibility/issues)**
+
+- [QEMU](https://www.qemu.org/) - *FOSS emulator*
+
+- [VirtualBox](https://www.virtualbox.org/) - *Emulator for x86 hardware*
+
+- [UTM](https://getutm.app/) - *emulator for iOS*
+
+
+# online games
+*bored in class, at your grandma's house, or in the library? check out these cool games to let time fly!*
+
+
+## group/party
+
+https://skribbl.io/ - *guess the drawing*
+
+https://gartic.com/ - *guess the drawing ~ others*
+
+[https://discord.gg/discordgameslab](https://discord.gg/discordgameslab) - *play games in Discord*
+
+https://richup.io/ - *Monopoly-styled board game*
+
+
+## multi-game
 
 https://poki.com/
 
@@ -30,73 +92,109 @@ https://miniclip.com/
 
 https://www.y8.com/
 
-<br>
+https://www.kongregate.com/
 
-### typing/words
+https://ninjakiwi.com/
 
-https://jklm.fun/ - _bombparty_
 
-https://typeracer.com/ - _car typing race_
+## typing/word
 
-https://nytimes.com/games/wordle - _guess the 5 letter word_
+https://jklm.fun/ - *bombparty*
 
-<br>
+https://typeracer.com/ - *car typing race*
 
-### arcade
+https://guessme.io/
 
-https://racing.pmnd.rs/ - _arcade driving_
 
-https://linerider.com/ - _physics-based hill rider_
+## guessing games
 
-https://classic.minecraft.net/ - _browser minecraft 1.0_
+https://nytimes.com/games/wordle - *guess the 5 letter word*
 
-<br>
+https://www.spotify.com/heardle/ - *guess the song*
 
-### online multiplayer
+https://geoguessr.com/ - *guess the streetview location*
 
-https://krunker.io/ - _popular PvP FPS_
 
-https://venge.io/ - _PvP FPS_
+## arcade
 
-https://totaljerkface.com/ - _happy wheels_
+https://racing.pmnd.rs/ - *arcade driving*
 
-https://betrayal.io/ - _among us/werewolf game_
+https://linerider.com/ - *physics-based hill rider*
 
-https://1v1.lol/ - _1v1 fortnite-like building_
+https://classic.minecraft.net/ - *browser minecraft 1.0*
 
-<br>
 
-### .io
+## idle
 
-https://agar.io/ - _survival-of-the-biggest FFA_
+- https://orteil.dashnet.org/cookieclicker/ - *popular incremental idle game about cookies*
 
-https://diep.io/ - _cannon gunfight FFA_
 
-https://starve.io/ - _survival game_
+## online multiplayer
 
-https://zombsroyale.io/ - _battle royale FFA_
+- [Krunker.io](https://krunker.io/) - *popular PvP FPS*
 
-https://powerline.io/ - _tron FFA_
+- [Venge.io](https://venge.io/) - *PvP FPS*
 
-https://slither.io - _tron, but snakes FFA_
+- [Total Jerkface](https://totaljerkface.com/) - *happy wheels*
 
-http://wings.io - _plane gunfight FFA_
+- [Betrayal.io](https://betrayal.io/) - *among us/werewolf game*
 
-<br>
+- [1v1.lol](https://1v1.lol/) - *1v1 fortnite-like building*
 
-### puzzle
+- [Eaglercraft](https://minecraftforfreex.com/eaglercraft/) - *minecraft in the browser*
 
-https://tetr.io/ - _tetris_
 
-https://proxx.app/ - _minesweeper_
+## .io
 
-https://2048.io/ - _2048_
+https://agar.io/ - *survival-of-the-biggest FFA*
 
-https://chess.com/ - _chess_
+https://diep.io/ - *cannon gunfight FFA*
 
-https://geoguessr.com/ - _guess the location streetview_
+https://starve.io/ - *survival game*
 
-<br>
+https://zombsroyale.io/ - *battle royale FFA* 
 
-**play games in Discord**
-https://discord.gg/discordgameslab
+https://powerline.io/ - *tron FFA*
+
+https://slither.io - *tron, but snakes FFA*
+
+http://wings.io - *plane gunfight FFA*
+
+
+## puzzle
+
+https://tetr.io/ - *tetris*
+
+https://proxx.app/ - *minesweeper*
+
+https://2048.io/ - *2048*
+
+https://chess.com/ - *chess*
+
+https://lichess.org/ - *chess*
+
+
+
+# DDL Games
+
+*well, that sucks! EA just ended support for a game and it's missing from my Steam library*
+
+- [r/PiratedGames Megathread](https://rentry.org/pgames-mega-thread) - *Trusted resources*
+
+- [Fitgirl Repacks](https://fitgirl-repacks.site/) - *Popular for game repacks. Good for people with slower internet speeds*
+
+- [DODI](http://dodi-repacks.site/) - *Good repacker for people that have fast internet speeds*
+
+- [CrackHub](https://crackhub.site/) - *SCENE and repack library*
+
+- [GamesDrive](https://gamesdrive.net/) - **
+
+- [VRPirates](https://t.me/vrpirates) - *telegram channel for VR games*
+
+- [itch.io](https://itch.io/games/new-and-popular/featured/free) - *free games on itch*
+
+- [Clone Hero](https://clonehero.net/) - *Guitar Hero Clone*
+
+- [Osu!](https://osu.ppy.sh/) - *Free-to-play rythm game*
+
+- [FreeToGame](https://www.freetogame.com/games) - *Discover the most popular free-to-play games*

@@ -1,52 +1,98 @@
 ---
-import '../styles/global.css';
-import Layout from '../layouts/default.astro';
+import "../styles/global.css";
+import Layout from "../layouts/default.astro";
 
-let title = 'index';
-const pages = await Astro.glob('../pages/*.md'); // returns an array of posts that live at ./src/pages/*.md
-const pagesSorted = pages.sort((a, b) => a.file.localeCompare(b.file)) // sort them alphabetically
+let title = "index";
+const pages = await Astro.glob("../pages/*.md"); // returns an array of posts that live at ./src/pages/*.md
+const pagesSorted = pages.sort((a, b) => a.file.localeCompare(b.file)); // sort them alphabetically
 ---
 
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>{title}</title>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{title}</title>
 
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-</head>
-<body>
-	<main>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	</head>
+	<body class="flex flex-col content-center px-6 justify-center h-screen md:w-sc">
 		<header>
 			<div>
-				<div class="header">
-					<img width="240" src="index.png" alt="index">
-					<p>make information free again</p>
+				<div class="header my-7">
+					<img class="w-48" src="index.png" alt="index" />
+					<p class="italic">(pronounced "index") a resource aggregator and attempt to make information free</p>
 				</div>
 
-				<br>
-
-				<table>
-					<tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th>name</th><th>date created</th><th>size</th></tr>
-					<tr><th colspan="5"><hr></th></tr>
-					<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="readme.txt">readme.txt</a></td><td>2022-04-29 18:40  </td><td> 648 </td></tr>
-					<tr><td valign="top"><img src="/icons/link.gif" alt="[   ]"></td><td><a href="https://github.com/snthcy/index">git.link</a></td><td>2022-04-29 18:40  </td><td> 0 </td></tr>
-					<tr><td valign="top"><img src="/icons/link.gif" alt="[   ]"></td><td><a href="https://discord.gg/U3gY6TAzCF">discord.link</a></td><td>2022-04-29 18:40  </td><td> 0 </td></tr>
-					<tr><th colspan="5"><hr></th></tr>
+				<table class="my-7 table-fixed">
+					<thead>
+					<tr>
+						<th><img src="/icons/blank.gif" alt="[ICO]" /></th>
+						<th>name</th>
+						<th>date created</th>
+						<th>size</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>
+							<img src="/icons/text.gif" alt="[TXT]" />
+						</td>
+						<td>
+							<a href="readme.txt">readme.txt</a>
+							</td>
+							<td>2022-04-29 18:40</td>
+							<td>852</td>
+					</tr>
+					<tr>
+						<td>
+							<img class="mr-2" src="/icons/link.gif" alt="[   ]" />
+						</td>
+						<td>
+							<a href="https://github.com/snthcy/index">git.link</a>
+							</td>
+							<td>2022-04-29 18:40</td>
+							<td> 0</td>
+							</tr>
+					<tr>
+						<td>
+							<img src="/icons/link.gif" alt="[   ]" /></td><td
+							><a href="https://discord.gg/U3gY6TAzCF">discord.link</a></td
+						><td>2022-04-29 18:40</td><td> 0</td></tr
+					>
+					</tbody>
 				</table>
 			</div>
 		</header>
 
-			<div>
-				<h2>contents</h2>
-				<ul>
-					{ pages.map((pagesSorted) => (<li><a href={pagesSorted.frontmatter.url}>{pagesSorted.frontmatter.title}</a><img src="icons/new.gif"></li>)) }
-				</ul>
-			</div>
-			<div class="badges">
-				<img src="icons/brbug.gif" alt="free speech">
-				<img style="padding-top: 5%;" src="icons/FreeInternetExplorerBadge.gif" alt="ie">
-			</div>
-	</main>
-</body>
+		<div class="my-7 items-center pr-1.5">
+			<h1 class="font-bold">contents</h1>
+			<ul>
+				{
+					pagesSorted.map((pagesSorted) => (
+						<li>
+							<>
+								<a class="items-center" href={pagesSorted.frontmatter.url}>
+									{pagesSorted.frontmatter.title}
+									{pagesSorted.frontmatter.new ? <img class="inline-flex" src="icons/new.gif" alt="new" /> : null}
+								</a>
+							</>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+		<div class="flex flex-row space-x-4 ">
+			<img
+				class="pt-5"
+				src="icons/indexlol.gif"
+				alt="index"
+			/>
+			<img src="icons/brbug.gif" alt="free speech" />
+			<img
+				class="pt-5"
+				src="icons/FreeInternetExplorerBadge.gif"
+				alt="ie"
+			/>
+		</div>
+	</body>
 </html>

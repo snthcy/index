@@ -1,6 +1,7 @@
 ---
 title: audio
-url: /audio/
+url: /audio
+new: true
 layout: ../layouts/default.astro
 ---
 
@@ -12,7 +13,7 @@ _time to get your groove on, baby! 🕺_
 
 ## glossary
 
-<table style="text-align: center">
+<table className="text-center">
 <th colspan="5"><hr></th></tr>
     <tr>
         <th scope="col">term</th>

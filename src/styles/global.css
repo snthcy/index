@@ -12,18 +12,4 @@ body {
 	background: #fdfaf4;
 	color: #191817;
 }
-table {
-	width: 20%;
-	margin-bottom: 2rem;
-}
 
-td {
-	text-align: center;
-}
-
-/* @media (prefers-color-scheme: dark) {
-	body {
-		background: #191817;
-		color: #fff;
-	}
-} */

@@ -2,7 +2,11 @@ index is an effort to create a collective of resources and free information that
 we believe information should be free for everyone and not locked behind a paywall.
 
 this website works without javascript and contains no trackers or analytics. it is hosted on vercel[0] and is 100% open-source
-each page is a markdown file that is parsed into a html readable file, made possible by astro[1]
+each page is a markdown file that is parsed into a html readable file, made possible by an epic framework, astro[1].
+
+
+cool tip: you can receive updates when there is new content by subscribing to our rss feed! simply use https://index.normie.cc/rss
+
 
 use this website and the information it provides however you'd like. the mission here is to make the information known and accessable to anyone
 hope you appreciate this project as much as i do.
